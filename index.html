@@ -5,7 +5,6 @@
     <title>Math Games</title>
     <link rel="stylesheet" href="style.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="html2canvas.min.js"></script>
     <script src="functions.js"></script>
 </head>
 <body>
@@ -17,6 +16,12 @@
         </tr>
     </table>
 </div>
-<input type="button" value="Generate 3x3 puzzle" onclick="generate_3x3_puzzle();"/>
+<input type="button" value="Generate 3x3 puzzle" onclick="generate_puzzle_horizontal_formulas_4_gems_with_print();"/>
+<div id="hoz_puzzle">
+    <div class="row1"></div>
+    <div class="row2"></div>
+    <div class="row3"></div>
+    <div class="row4"></div>
+</div>
 </body>
 </html>
